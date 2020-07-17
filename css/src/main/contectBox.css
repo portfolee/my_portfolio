@@ -1,0 +1,52 @@
+#contectBox{
+	position: relative;
+	width: 100%; height: 30%;
+	min-height: 300px;
+}
+
+#contectBox:after{
+	content:" "; position: absolute; z-index: -5;
+	bottom: 0; left: 0;
+	display: block;
+	width: 60%; height: 90%;
+	min-width: 400px;
+	background-color: #E95A9B;
+}
+
+.contect_area{
+	width: 1024px; height: 100%;
+	margin: auto;
+}
+
+.my_contect{
+	width: 50%; height: 100%;
+	padding: 50px; box-sizing: border-box;
+}
+
+.my_contect a{
+	display: block;
+	width: 100%; height: auto;
+	margin: 30px 0;
+	padding: 5px 0; box-sizing: border-box; 
+}
+
+.my_contect a:hover{
+	background-color:#81264f;
+}
+
+.my_contect i{
+	float: left;
+	display: block;
+	width: 20%; height: auto;
+  text-align: center;
+	color:#fff;
+	font-size: 1.5rem;
+}
+
+.my_contect p{
+	float: left;
+	display: block;
+	width: 80%; height: 100%;
+	font-size: 1.2rem;
+	color:#fff;
+}

@@ -1,0 +1,41 @@
+#viewBox{
+	position: relative;
+	width: 100%; height: 100%;
+	min-height: 940px;
+}
+
+.profile{
+	position: absolute; 
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px; height: auto;
+	background-color: #fff;
+}
+
+.profile_img{
+	width: 500px; height: 500px;
+	background-image: url('../../../img/logo.svg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+}
+.profile_text{
+	text-align: center;
+}
+
+.profile_text h3{
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+h3 span{
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+
+.profile_text p{
+	text-transform: capitalize;
+	font-size: 1.1rem;
+	color: #696969;
+}
