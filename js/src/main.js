@@ -21,8 +21,8 @@
 
 
 	var slideList = [
-		{'name':'dong-a otsuka','period':'2020.06','type':'반응형 웹사이트','tool':'ps ai vscode','link':'#','imglink':'work_02.png'},
-		{'name':'goyang flower','period':'2020.04','type':'반응형 웹사이트','tool':'ps ai vscode','link':'#','imglink':'work_01.png'}
+		{'name':'donga otsuka','period':'2020.06','type':'반응형 웹사이트','tool':'ps ai vscode','link':'https://portfolee.github.io/donga-otsuka/','imglink':'work_02.png'},
+		{'name':'goyang flower','period':'2020.04','type':'반응형 웹사이트','tool':'ps ai vscode','link':'https://portfolee.github.io/goyang-flower/','imglink':'work_01.png'}
 	]
 
 	for(var i=0; i<slideList.length; i++){
